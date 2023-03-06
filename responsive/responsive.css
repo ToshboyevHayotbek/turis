@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1030px){
+    html{
+        scroll-behavior: smooth;
+    }
+    body{
+        line-height: 1.4;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .navigation{
+        width: 100%;
+    }
+    .navigation a{
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        font-size: 0.8rem;
+    }
+    .header__content h2{
+        color: white;
+        font-family: Ubuntu;
+        font-size: 4rem;
+    }
+    .header__content p{
+        margin-bottom: 2rem;
+    }
+    .about__content{
+        padding: 2rem;
+        width: 100%;
+        border: 1px solid black;
+        gap: 4rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+    .statistika__item img{
+        width: 30%;
+        height: 70%;
+        margin: 0 auto;
+        }
+}

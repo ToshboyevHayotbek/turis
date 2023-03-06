@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Rampart+One&family=Roboto+Slab:wght@900&family=Rowdies:wght@300&family=Shantell+Sans:ital,wght@1,800&family=Ubuntu:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    line-height: 1.4;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.container{
+    max-width: 70%;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/header.jpg);
+    background-size: cover;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, .51);
+    width: 100%;
+    height: 100vh;
+}
+.navigation{
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+.navigation a{
+    padding-left:1.2rem;
+    padding-right: 1.2rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-family: Roboto Slab;
+}
+.header__content{
+    width: 100%;
+    margin: 0 auto;
+}
+.header__content h1{
+    color: #BD8CBF;
+    font-size: 6rem;
+    font-family: sans-serif;
+}
+.header__content h2{
+    color: white;
+    font-family: Ubuntu;
+    font-size: 6rem;
+}
+.header__content p{
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header__button{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+}
+.header__button button{
+    background-color: transparent;
+    padding: 1rem 4rem;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+}
+.header__button button:hover{
+    background-color: #BD8CBF;
+    border: 2px solid #BD8CBF;
+    transition: 0.5s;
+}
+.about{
+    width: 100%;
+    padding: 4rem 0;
+}
+.about__title{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+.about__title h3{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+.about__title b{
+    color: #BD8CBF;
+}
+.about__title p{
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+.about__content{
+    padding: 2rem;
+    width: 100%;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.about__item{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+.about__img{
+    width: 74%;
+    height: 100%;
+    background-color: #BD8CBF;
+}
+.holiday__nav{
+    width: 200px;
+    height: 150px;
+    margin-bottom: 1rem;
+}
+.about__img h3{
+    color: white;
+    font-family: Roboto Slab;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.about__engoy{
+    width: 100%;
+    margin: 0 auto;
+    text-align: end;
+}
+.about__engoy h3{
+    font-family: Roboto Slab;
+    font-size: 1.5rem;
+    text-align: end;
+    margin-bottom: 1rem;
+}
+.about__engoy p{
+    width: 100%;
+    text-align: end;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.about__engoy button{
+    padding: 0.5rem 4rem;
+    border-radius: 20px;
+    border: 2px solid #BD8CBF;
+    background-color: #BD8CBF;
+    color: white;
+    text-align: center;
+}
+.services{
+    width: 100%;
+    padding: 4rem;
+}
+.services__title{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+.services__title h2{
+    font-family: Roboto Slab;
+    font-size: 2rem;
+    text-align: center;
+}
+.services__title b{
+    color: #BD8CBF;
+}
+.services__title p{
+    text-align: center;
+}
+.travel{
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    background-image: url(/img/agency.jpg);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, .7);
+}
+.white__overlay{
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(255, 255, 255, .7);
+    padding: 4rem 0;
+}
+.travel__content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin-bottom: 8%;
+}
+.travel__item{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+}
+.travel__img img{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.travel__title p{
+    font-size: 1.2rem;
+    font-family: Ubuntu;
+}
+.statistika__item{
+    width: 100px;
+    height: 100px;
+    color: #BD8CBF;
+}
+.statistika{
+    width: 100%;
+    padding: 2rem 0;
+}
+.statistika__content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    align-items: center;
+    text-align: center;
+}
+.statistika__item{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.statistika__item img{
+    width: 25%;
+    height: 80%;
+    margin: 0 auto;
+}
+.statistika__item h2{
+    color: #BD8CBF;
+    font-size: 2rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+.statistika__item h3{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Roboto Slab;
+}
+.contact{
+    width: 100%;
+    height: 70vh;
+    background-image: url(/img/contact.jpg);
+    background-size: cover;
+}
+.violet__overlay{
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(189, 140, 191, .51);
+    padding: 4rem 0;
+}
+.contact__title{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+.contact__title h2{
+    color: white;
+    font-size: 2.5rem;
+    font-family: Ubuntu;
+    text-align: center;
+}
+.contact__content{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+}
+.contact__content input{
+    width: 50%;
+    height: 5vh;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+.contact__content textarea{
+    width: 50%;
+    height: 10vh;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 2%;
+}
+.contact__content input[type="submit"]{
+    width: 10rem;
+    margin: 0 auto;
+    background-color: #BD8CBF;
+    color: white;
+    border: none;
+}
+.footer{
+    width: 100%;
+    padding: 2rem;
+    background-color: #563158;
+}
+.footer__content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding-bottom: 6rem;
+}
+.footer__item{
+    width: 100%;
+    text-align: center;
+}
+.footer__item h2{
+    color: white;
+    text-align: center;
+    font-family: Ubuntu;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.footer__item h4{
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.footer__item a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0.5rem;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.footer__title{
+    width: 100%;
+    text-align: center;
+    background-color: #BD8CBF;
+}
+.footer__title p{
+    color: white;
+    font-size: 1.2rem;
+    font-family: Roboto Slab;
+}
